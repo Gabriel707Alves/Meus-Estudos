@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #383838;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+
+.quadrado-vermelho {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute ;
+    z-index: 3;
+    left: 100px;
+}
+
+.quadrado-verde {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    z-index: 2;
+    left: 120px;
+}
+
+.quadrado-azul {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute ;
+    z-index: 1;
+    left: 140px;
+}
